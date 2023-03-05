@@ -12,17 +12,25 @@ const categoryData = [
     imgUrl: categoryImg01,
   },
   {
-    display: "Pizza",
+    display: "Dessert",
     imgUrl: categoryImg02,
   },
 
   {
-    display: "Asian Food",
+    display: "Classics",
     imgUrl: categoryImg03,
   },
 
   {
-    display: "Row Meat",
+    display: "Soups",
+    imgUrl: categoryImg04,
+  },
+  {
+    display: "Burgers",
+    imgUrl: categoryImg04,
+  },
+  {
+    display: "Breads",
     imgUrl: categoryImg04,
   },
 ];

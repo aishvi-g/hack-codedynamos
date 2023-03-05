@@ -26,114 +26,114 @@ import product_06_image_03 from "../images/bread(3).png";
 const products = [
   {
     id: "01",
-    title: "Chicken Burger",
+    title: "Planutella Waffles",
     price: 24.0,
     image01: product_01_image_01,
     image02: product_01_image_02,
     image03: product_01_image_03,
-    category: "Burger",
+    category: "Dessert",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
   },
 
   {
     id: "02",
-    title: "Vegetarian Pizza",
+    title: "Orbifritters",
     price: 115.0,
     image01: product_02_image_01,
     image02: product_02_image_02,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "FastFood",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "03",
-    title: "Double Cheese Margherita",
+    title: "Astronaan and Paneer gravy",
     price: 110.0,
     image01: product_03_image_01,
     image02: product_03_image_02,
     image03: product_03_image_03,
-    category: "Pizza",
+    category: "Classics",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "04",
-    title: "Maxican Green Wave",
+    title: "Chilli Lunar Noodles",
     price: 110.0,
     image01: product_04_image_01,
     image02: product_04_image_02,
     image03: product_04_image_03,
-    category: "Pizza",
+    category: "FastFood",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "05",
-    title: "Cheese Burger",
+    title: "Hot and solar soup",
     price: 24.0,
     image01: product_05_image_01,
     image02: product_05_image_02,
     image03: product_05_image_03,
-    category: "Burger",
+    category: "Soups",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
   {
     id: "06",
-    title: "Royal Cheese Burger",
+    title: "Gravity of Talumun",
     price: 24.0,
     image01: product_01_image_01,
     image02: product_01_image_02,
     image03: product_01_image_03,
-    category: "Burger",
+    category: "Classics",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "07",
-    title: "Seafood Pizza",
+    title: "Apollo pie",
     price: 115.0,
     image01: product_02_image_02,
     image02: product_02_image_01,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "Dessert",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "08",
-    title: "Thin Cheese Pizza",
+    title: "Mango Crater Cake",
     price: 110.0,
     image01: product_03_image_02,
     image02: product_03_image_01,
     image03: product_03_image_03,
-    category: "Pizza",
+    category: "Dessert",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "09",
-    title: "Pizza With Mushroom",
+    title: "Choco Mission",
     price: 110.0,
     image01: product_04_image_02,
     image02: product_04_image_01,
     image03: product_04_image_03,
-    category: "Pizza",
+    category: "dessert",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "10",
-    title: "Classic Hamburger",
+    title: "Galaxy Hamburger",
     price: 24.0,
     image01: product_05_image_02,
     image02: product_05_image_01,
@@ -157,7 +157,7 @@ const products = [
 
   {
     id: "12",
-    title: "Delicious Bread ",
+    title: "Cosmic Bread ",
     price: 35.0,
     image01: product_06_image_02,
     image02: product_06_image_01,
@@ -169,7 +169,7 @@ const products = [
 
   {
     id: "13",
-    title: "Loaf Bread ",
+    title: "Moon Bread ",
     price: 35.0,
     image01: product_06_image_03,
     image02: product_06_image_02,
