@@ -13,7 +13,7 @@ const Footer = () => {
               <img src={logo} alt="logo" />
               <h5>Cosmic Cravings</h5>
               <p>
-              You have come at just the right destination for all your out-of-world cravings. Grab your favourite bite within seconds. Cosmic Craving welcomes you to our galaxial family as you chose us and now you are one of us ! 
+                Cosmic Craving welcomes you to our galaxial family as you chose us and now you are one of us ! 
               </p>
             </div>
           </Col>
