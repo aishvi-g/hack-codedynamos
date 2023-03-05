@@ -134,7 +134,7 @@ const Home = () => {
       </section>
       <div><KommunicateChat/></div>
 
-      <section className="pt-0">
+      <section className="pt-5">
         <Category />
       </section>
 
