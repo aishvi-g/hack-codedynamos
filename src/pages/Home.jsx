@@ -17,6 +17,7 @@ import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 import whyImg from "../assets/images/location.png";
 import networkImg from "../assets/images/network.png";
 import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
+import KommunicateChat from "../chat.js";
 
 const featureData = [
   {
@@ -78,6 +79,7 @@ const Home = () => {
   }, [category]);
 
   return (
+    
     <Helmet title="Home">
       <section>
         <Container>
@@ -131,6 +133,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <div><KommunicateChat/></div>
 
       <section className="pt-0">
         <Category />
@@ -330,6 +333,7 @@ const Home = () => {
         </Container>
       </section>
     </Helmet>
+    
   );
 };
 
