@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Helmet from "../components/Helmet/Helmet.js";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import heroImg from "../assets/images/hero.png";
+import heroImg from "../assets/images/alien.png";
 import "../styles/hero-section.css";
 import { Link } from "react-router-dom";
 import Category from "../components/UI/category/Category.jsx";
@@ -233,7 +233,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section className="why__choose-us">
+      {/* <section className="why__choose-us">
         <Container>
           <Row>
             <Col lg="6" md="6">
@@ -289,7 +289,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       <section className="pt-0">
         <Container>
@@ -307,7 +307,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="6" md="6">
@@ -331,7 +331,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
     
   );

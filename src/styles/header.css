@@ -2,6 +2,7 @@
   width: 100%;
   height: 100px;
   line-height: 100px;
+ 
 }
 
 .logo {
@@ -84,7 +85,7 @@
   }
   .logo h5 {
     font-size: 0.8rem;
-    margin-top: -15px;
+    margin-top: 12 rem;
   }
 
   .navigation {
