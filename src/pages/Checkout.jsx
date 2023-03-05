@@ -4,7 +4,33 @@ import { Container, Row, Col } from "reactstrap";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/checkout.css";
+import StripeCheckout from "react-stripe-checkout"
+
 const Checkout = () => {
+  const[product, setProduct] = useState({
+    name: "React from FB",
+    price: 10,
+    productBy: "facebook"
+  })
+  const makePayment = token =>{
+    const body = {
+      token, 
+      product
+    }
+    const headers={
+      "Content-Type": "application/json"
+    }
+    return fetch('http://localhost:8282/payment',{
+      method: "POST",
+      headers,
+      body: JSON.stringify(body)
+    }).then(response =>{
+      console.log("RESPONSE", response);
+      const{status}= response;
+      console.log("STATUS", status);
+    })
+    .catch(error => console.log(error));
+  }
   const [enterName, setEnterName] = useState("");
   const [enterEmail, setEnterEmail] = useState("");
   const [enterNumber, setEnterNumber] = useState("");
@@ -88,9 +114,26 @@ const Checkout = () => {
                     onChange={(e) => setPostalCode(e.target.value)}
                   />
                 </div>
-                <button type="submit" className="addTOCart__btn">
-                  Payment
+                <a
+              className="App-link"
+              
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <StripeCheckout
+              stripeKey="pk_test_51Mhqi9SC80KoMaCCV7xpxQZ4mbXQWr3qah2TCvCPY7SmvOf8yiz7hNMLg9EQPZGBbcN6wGrTEM0IAQoU4Pgywlkw000Txt67aE"
+              token={makePayment}
+              name="buy food"
+              amount={product.price *100}
+              >
+                <button className="btn-large blue">pay with card here!
                 </button>
+                </StripeCheckout>
+           
+            </a>
+                {/* <button type="submit" className="addTOCart__btn">
+                  Payment
+                </button> */}
               </form>
             </Col>
 
