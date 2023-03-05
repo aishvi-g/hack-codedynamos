@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
-import logo from "../../assets/images/res-logo.png";
+import logo from "../../assets/images/logo.png";
 import { NavLink, Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { cartUiActions } from "../../store/shopping-cart/cartUiSlice";
@@ -57,6 +57,7 @@ const Header = () => {
           <div className="logo">
             <img src={logo} alt="logo" />
             <h5>Cosmicravings</h5>
+            
           </div>
 
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>

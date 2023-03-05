@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Helmet from "../components/Helmet/Helmet.js";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import heroImg from "../assets/images/hero.png";
+import heroImg from "../assets/images/alien.png";
 import "../styles/hero-section.css";
 import { Link } from "react-router-dom";
 import Category from "../components/UI/category/Category.jsx";
@@ -18,24 +18,25 @@ import whyImg from "../assets/images/location.png";
 import networkImg from "../assets/images/network.png";
 import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
 import KommunicateChat from "../chat.js";
+import BannerImage from "../assets/images/bg_mars.jpg"
 
 const featureData = [
-  {
-    title: "Quick Delivery",
-    imgUrl: featureImg01,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
-  },
+//   {
+//     title: "Quick Delivery",
+//     imgUrl: featureImg01,
+//     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+//   },
 
-  {
-    title: "Super Dine In",
-    imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
-  },
-  {
-    title: "Easy Pick Up",
-    imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
-  },
+//   {
+//     title: "Super Dine In",
+//     imgUrl: featureImg02,
+//     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+//   },
+//   {
+//     title: "Easy Pick Up",
+//     imgUrl: featureImg03,
+//     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+//   },
 ];
 const Home = () => {
   const [category, setCategory] = useState("ALL");
@@ -81,20 +82,18 @@ const Home = () => {
   return (
     
     <Helmet title="Home">
-      <section>
+      <section style={{ backgroundImage:`url(${BannerImage})`, backgroundRepeat:"no-repeat", backgroundSize: "cover"}}>
         <Container>
           <Row>
             <Col lg="6" md="6">
               <div className="hero__content  ">
-                <h5 className="mb-3">Easy way to make an order</h5>
+                <h5 className="mb-3">Grab your favourite bite within seconds.</h5>
                 <h1 className="mb-4 hero__title">
-                  <span>HUNGRY?</span> Just wait <br /> food at
-                  <span> your door</span>
+                  <span>CRAVING SOMETHING YUMMY?</span> Just grab<br />   <span> your phones </span>
                 </h1>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  magni delectus tenetur autem, sint veritatis!
+                   You have come at just the right destination for all your out-of-world cravings.
                 </p>
 
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -114,13 +113,13 @@ const Home = () => {
                     </span>{" "}
                     No shipping charge
                   </p>
-
+{/* 
                   <p className=" d-flex align-items-center gap-2 ">
                     <span className="shipping__icon">
                       <i class="ri-shield-check-line"></i>
                     </span>{" "}
                     100% secure checkout
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </Col>
@@ -139,7 +138,7 @@ const Home = () => {
         <Category />
       </section>
 
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="text-center">
@@ -173,7 +172,7 @@ const Home = () => {
             ))}
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       <section>
         <Container>
@@ -233,7 +232,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section className="why__choose-us">
+      {/* <section className="why__choose-us">
         <Container>
           <Row>
             <Col lg="6" md="6">
@@ -289,7 +288,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       <section className="pt-0">
         <Container>
@@ -307,7 +306,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="6" md="6">
@@ -331,7 +330,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
     
   );

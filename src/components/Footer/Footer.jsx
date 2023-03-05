@@ -11,10 +11,9 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
-              <h5>Tasty Treat</h5>
+              <h5>Cosmic Cravings</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
+                Cosmic Craving welcomes you to our galaxial family as you chose us and now you are one of us ! 
               </p>
             </div>
           </Col>
@@ -29,7 +28,7 @@ const Footer = () => {
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
                 <span>Friday - Saturday</span>
-                <p>Off day</p>
+                <p>8:00am - 00:00 am</p>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -38,14 +37,14 @@ const Footer = () => {
             <h5 className="footer__title">Contact</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: Altunizade Mah. Uskudar/İstanbul</p>
+                <p>Location: Human Headquaters ,Mars</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Phone: 555 555 55 55</span>
+                <span>Phone: 0937819018</span>
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Email: c.eray@hotmail.com</span>
+                <span>Email: cosmicravings@marsmail.com</span>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -65,7 +64,7 @@ const Footer = () => {
         <Row className="mt-5">
           <Col lg="6" md="6">
             <p className="copyright__text">
-              Copyright - 2023, website made by Eray Demircioglu. All Rights
+              Copyright - 2023, website made by Team Code Dynamos. All Rights
               Reserved.
             </p>
           </Col>
@@ -74,27 +73,23 @@ const Footer = () => {
               <p className="m-0">Follow: </p>
               <span>
                 {" "}
-                <Link to="https://www.facebook.com/eraydmrcoglu">
+                <Link to="https://www.facebook.com/">
                   <i class="ri-facebook-line"></i>
                 </Link>{" "}
               </span>
 
-              <span>
-                <Link to="https://github.com/eraydmrcoglu">
-                  <i class="ri-github-line"></i>
-                </Link>
-              </span>
+              
 
               <span>
                 {" "}
-                <Link to="https://www.youtube.com/channel/UCRlE1wFdJrCXGp6bblO85ig">
+                <Link to="https://www.youtube.com/channel/">
                   <i class="ri-youtube-line"></i>
                 </Link>{" "}
               </span>
 
               <span>
                 {" "}
-                <Link to=" https://www.linkedin.com/in/eraydmrcoglu/">
+                <Link to=" https://www.linkedin.com/in/">
                   <i class="ri-linkedin-line"></i>
                 </Link>{" "}
               </span>
