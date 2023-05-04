@@ -30,11 +30,11 @@ Still can't hover through? The native of mars - our bot, RocketFuel will help yo
 
 
 ## Deployment
-Click [here]([link]()) to go to our Telegram Bot.
+Click [here](https://hack-codedynamos-1.shimjim7.repl.co) to go to our Telegram Bot.
 You can also search our bot on telegram by searching @shreyaecho_bot
 
 ## Video Demo
-Click [here]() to watch our demo video.
+Click [here](https://www.loom.com/share/1c09fa4ed389423b8b0002cb38c0c137) to watch our demo video.
 
 ## License
 This repository is licensed under the MIT license. See the [LICENSE](https://github.com/aishvi-g/hack-codedynamos/blob/main/LICENSE) file for more information.
