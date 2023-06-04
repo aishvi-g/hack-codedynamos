@@ -30,8 +30,8 @@ Still can't hover through? The native of mars - our bot, RocketFuel will help yo
 
 
 ## Deployment
-Click [here](https://hack-codedynamos-1.shimjim7.repl.co) to go to our Telegram Bot.
-You can also search our bot on telegram by searching @shreyaecho_bot
+Click [here](https://hack-codedynamos-1.shimjim7.repl.co) to go to our food ordering app.
+
 
 ## Video Demo
 Click [here](https://www.loom.com/share/1c09fa4ed389423b8b0002cb38c0c137) to watch our demo video.
